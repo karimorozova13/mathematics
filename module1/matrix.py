@@ -2,7 +2,7 @@ import numpy as np
 
 """
     m -row
-    n - column
+    n - column m*n
 """
 
 # square matrix row len == column len
@@ -43,3 +43,11 @@ b= np.array([[1,2], [3,4]])
 c= np.array([[1,2,2,2], [3,4,4,4]])
 d= np.array([np.ones(4), np.ones(4), np.ones(4), np.ones(4)])
 print(d)
+
+mat = np.array([[4,1,-1], [5,1,-4]])
+mat2 = np.array([[-2,3,0],[2,2,2]])
+print(mat + mat2)
+
+mat3 = np.array([[4,1,-1], [-1,6,5],[5,1,-4]])
+mat4 = np.array([[-2,3,0],[8,1,7],[2,2,2]])
+print(mat3 + mat4)
