@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+from matplotlib_venn import venn3
+
+set1 = set([1,4,9,16,25])
+set2 = set([2,4,6,8,10,12,14,16,18,20,22,24,26,28,30])
+set3 = set([5,10,15,20,25,30])
+
+venn3([set1, set2, set3], ('square', 'Парні', 'Кратні 5'))
+
+plt.show()
