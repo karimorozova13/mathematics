@@ -33,3 +33,7 @@ def calculate_entropy(text):
 text_example = "aaaabbcd"
 entropy_value = calculate_entropy(text_example)
 print(f"Ентропія тексту: {entropy_value} біт")
+
+# text_example1 = "aaaaaaaaaaeeeeeeeeeeeeeeeiiiiiiiiiiiiooouuuussssssssssssst"
+# entropy_value1 = calculate_entropy(text_example1)
+# print(f"Ентропія тексту: {entropy_value1} біт")
